@@ -854,7 +854,7 @@ function PlayerMessageSend(speaker, chatType, text, anonymous, receivers, rawTex
 end
 
 --- Called when a player model was changed.
--- @realm shared
+-- @realm shared 
 -- @player client Player whose model was changed
 -- @string oldModel Old player model
 function PlayerModelChanged(client, oldModel)
